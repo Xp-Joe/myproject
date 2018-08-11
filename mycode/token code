@@ -55,9 +55,9 @@ contract ERC20 is ERC20Interface,SafeMath {
 
     constructor(string _name) public {
        name = _name;   /*the name is
-       symbol = "ETOO"; *supply by yourself
+       symbol = "xpc"; *supply by yourself
        decimals = 4;   */
-       totalSupply = 1038688590000;
+       totalSupply = 190000;
        balanceOf[msg.sender] = totalSupply;
     }
 
